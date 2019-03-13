@@ -197,9 +197,11 @@ function makePerson(name, birthday, ssn) {
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-function makeCard() {
+function makeCard(cardNumber, expirationDate, securityCode) {
   return {
-
+    cardNumber, 
+    expirationDate, 
+    securityCode
   }
   
 }
